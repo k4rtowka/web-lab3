@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap');
+
+header{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background-color: #FFFFFF;
+    opacity: 0.6;
+    justify-content: space-between;
+    font-family: 'Overpass Mono', monospace;
+    box-shadow: #e9e9f1 0 0 2px 1px;
+    align-items: center;
+    padding: 0 50px;
+}
+
+/* Всё что  слева:*/
+
+.header .lab-name{
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Всё что справа:*/
+
+.header > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.header a{
+    color: #595757;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #9d0c0c;
+    font-size: 22px;
+    transition: 0.5s;
+    text-shadow: 0 0 20px #9d0c0c;
+    text-decoration: none;
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap');
+
+*{
+    font-family: 'Overpass Mono', monospace;
+}
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #FAFAFA;
+}
+
+.container{
+    margin: 30px auto auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: table;
+    text-align: center;
+    box-shadow: #e9e9f1 0 0 2px 1px;
+}
+
+/*
+    Отвечает за график (левая часть контейнера)
+*/
+.svg-wrapper{
+    background-color: #FFFFFF;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+/*
+    Ввод данных (Правая часть)
+*/
+.inputs{
+    padding: 1px 50px 15px 50px;
+}
+
+.text-center{
+    margin: auto 30px;
+    display: inline-block;
+}
+
+.text-center-button{
+    display: inline-block;
+}
+
+.text-input{
+    text-align: center;
+}
+
+
+
+.button-input{
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: lightyellow;
+    margin: 1px;
+    display: inline-block;
+    text-decoration: none;
+    color:black
+}
+
+.button-input:hover{
+    color: white;
+    transition: 0.5s;
+    background-color: forestgreen;
+    margin: 1px;
+}
+
+.button-input-selected{
+    text-decoration: none;
+    width: 40px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: green;
+    margin: 1px;
+    display: inline-block;
+}
+
+
+/*
+    Для кнопок отправки и очистки таблицы
+*/
+.special-button input[type="submit"], .special-button input[type="button"]{
+    color: white;
+    margin: 20px 5px 0;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    box-shadow: #e9e9f1 0 0 2px 1px;
+    border: none;
+    border-radius: 6px;
+}
+
+.special-button input[type="submit"]:hover, .special-button input[type="button"]:hover{
+    color: black;
+    transition: 0.5s;
+    background-color: #FAFAFA;
+}

@@ -1,0 +1,29 @@
+.table-check{
+    padding: 20px 20px 10px;
+    display: table;
+    text-align: center;
+    margin: 30px auto auto;
+    background-color: #FFFFFF;
+    opacity: 0.9;
+    box-shadow: #e9e9f1 0 0 2px 1px;
+}
+
+th {
+    padding: 5px 25px 5px 25px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+td {
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+
+.container-table{
+    margin: 30px auto 100px auto;
+    padding: 20px 10px 10px 5px;
+    display: table;
+    text-align: center;
+}

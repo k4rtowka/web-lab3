@@ -1,0 +1,45 @@
+body{
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #FAFAFA;
+}
+
+html{
+    position: relative;
+}
+
+.link-button{
+    display: flex;
+    justify-content: center;
+}
+
+.link-button input[type="button"]{
+    color: white;
+    margin: 20px 5px 0;
+    padding: 7px 5px;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    box-shadow: #e9e9f1 0 0 2px 1px;
+    border: none;
+    border-radius: 6px;
+}
+
+.link-button input[type="button"]:hover{
+    color: black;
+    transition: 0.5s;
+    background-color: #FFFFFF;
+}
+
+.content{
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
